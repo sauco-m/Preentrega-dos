@@ -131,7 +131,6 @@ main .casamiento{
 
   main ul li.blog1 .blog2 {
     background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
-    list-style: none;
     border: 3px solid black;
     padding: 20px;
     margin: 20px;
@@ -234,17 +233,29 @@ footer ul li img{
     /*estilos del main*/
 
     main ul li.blog1 {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;}
-
+        display: grid;
+        grid-template-areas: 
+            "p img"
+            "img h2"
+            "img h1";
+        background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
+        list-style: none;
+        border: 3px solid black;
+        padding: 20px;
+        margin: 20px;
+      }
+    
     main ul li.blog2{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;}    
-
-    main{
-        padding: 2rem;
+        display: grid;
+        grid-template-areas: 
+            "p img"
+            "img h2"
+            "img h1";
+        background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
+        list-style: none;
+        border: 3px solid black;
+        padding: 30px;
+        margin: 30px;
     }
 }
 
@@ -264,21 +275,4 @@ header nav ul li:hover{
             "img h2"
             "img h1";
     }
-}
-main ul li.blog1 {
-    display: block;
-    background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
-    list-style: none;
-    border: 3px solid black;
-    padding: 20px;
-    margin: 20px;
-  }
-
-main ul li.blog2{
-    display: block;
-    background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
-    list-style: none;
-    border: 3px solid black;
-    padding: 30px;
-    margin: 30px;
 }
