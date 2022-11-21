@@ -55,10 +55,7 @@ body{
 /* estilos del main */
 
 main{
-    background-color:aliceblue;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -127,20 +124,12 @@ main .casamiento{
 
 /* main blog */
 
-.linea {
-    border-top: 1px solid black;
-    height: 2px;
-    max-width: 1000px;
-    padding: 0;
-    margin: 5px auto 0 auto;
-  }
 
   main ul li img{
-    
-    width: 45%;
+    width: 50%;
   }
 
-  main ul li.blog1 {
+  main ul li.blog1 .blog2 {
     background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
     list-style: none;
     border: 3px solid black;
@@ -148,13 +137,6 @@ main .casamiento{
     margin: 20px;
   }
 
-main ul li.blog2{
-    background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
-    list-style: none;
-    border: 3px solid black;
-    padding: 30px;
-    margin: 30px;
-}
 
 /* main historia */
 
