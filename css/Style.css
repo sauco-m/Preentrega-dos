@@ -62,7 +62,7 @@ header {
     font-size: 85%;
     text-shadow: 1px 1px 2px; }
   .home div img {
-    width: 150px;
+    width: 250px;
     margin: 20px; }
 
 .titulo {
@@ -74,7 +74,7 @@ main {
   background-color: rgba(199, 181, 140, 0.981127);
   padding: 30px;
   margin: 30px;
-  text-align: start;
+  align-items: flex-start;
   display: flex;
   flex-flow: row wrap; }
   main .linea {
@@ -88,7 +88,7 @@ main {
 .moda {
   padding: 30px;
   margin: 30px;
-  text-align: start;
+  align-items: flex-start;
   display: flex;
   flex-flow: row wrap; }
   .moda .linea {
@@ -102,7 +102,7 @@ main {
 .arte {
   padding: 30px;
   margin: 30px;
-  text-align: start;
+  align-items: flex-start;
   display: flex;
   flex-flow: row wrap; }
   .arte .linea {
@@ -116,7 +116,7 @@ main {
 .casamiento {
   padding: 30px;
   margin: 30px;
-  text-align: start;
+  align-items: flex-start;
   display: flex;
   flex-flow: row wrap; }
   .casamiento .linea {
