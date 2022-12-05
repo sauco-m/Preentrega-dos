@@ -1,0 +1,34 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font: small-caps 100%/200% serif;
+}
+header{
+    background-color:  rgba(199,181,140,0.981127485173757)
+}
+body{
+    background-color: rgba(199,181,140,0.981127485173757)
+}
+
+footer{
+    background-color: rgba(199,181,140,0.981127485173757)
+}
+
+
+//importando archivos secundarios
+
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+@import "contenedores/menu";
+@import "contenedores/home";
+@import "contenedores/proyecto";
+@import "contenedores/blog";
+@import "contenedores/historia";
+@import "contenedores/contacto";
+@import "contenedores/footer"
+

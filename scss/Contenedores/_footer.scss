@@ -1,0 +1,18 @@
+footer{
+    background-color: $color-principal;
+    text-align: center;
+    margin-top: 15px;
+    h3{
+        text-align: start;
+        font-size: 13px;
+    }
+    ul{
+    li{
+        display: inline;
+        margin: 10px;
+        img{
+            width: 20px;
+        }
+    }
+}
+ }

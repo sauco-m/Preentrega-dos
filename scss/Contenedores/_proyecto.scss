@@ -1,0 +1,32 @@
+.titulo{
+    margin: 10px;
+    padding: 10px;
+    color: #30613b;
+ }
+main{
+    background-color:  $color-principal;
+
+        @include proyecto
+    }
+    .moda{
+        @include proyecto
+    }
+    .arte{
+        @include proyecto
+    }
+    .casamiento{
+        @include proyecto
+    }
+    ul{
+        li{
+            h2{
+                margin: 15px;
+                padding: 15px;
+                color: $color-texto;
+                text-shadow: 1px 1px 3px;
+            }
+            img{
+                width: 35%;
+            }
+        }
+    }

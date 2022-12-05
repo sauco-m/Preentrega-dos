@@ -1,0 +1,38 @@
+//importando archivos secundarios
+
+header{
+    background-color: $color-principal;
+    margin: 5px;
+    border: 2px inset gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 250px;
+        display: flex;
+    }
+    .navbar{
+        padding: 0%;
+    }
+   
+    .container-fluid{
+        background-color: $color-menu
+    }
+    nav{
+        ul{
+            background-color: $color-menu;
+            list-style: none;
+            display: flex;
+            gap: 20px;
+           
+            li{
+                background-color: $color-menu;
+                background: $color-botones;
+                border-radius: 15px;
+                text-shadow: 1px 1px 3px;
+                box-shadow: 1px 1px 4px black;
+                font-size: medium;
+            }
+        }
+    }
+ }

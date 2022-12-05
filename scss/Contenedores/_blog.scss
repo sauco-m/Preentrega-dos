@@ -1,0 +1,27 @@
+.titulo{
+    color: #30613b;
+ }
+ 
+main{
+    ul{
+        li{
+            list-style: none;
+            img{
+                width: 50%;
+            }
+            .blog1{
+                @extend %estilosBlog;}
+                .linea {
+                    text-align: center;
+                    border-top: 1px solid black;
+                    height: 2px;
+                    max-width: 2000px;
+                    padding: 0;
+                    margin: 5px auto 0 auto;
+                  }
+            .blog2{
+                @extend%estilosBlog;
+                }
+            }
+        }
+    }

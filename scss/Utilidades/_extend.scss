@@ -1,0 +1,12 @@
+%estilosBlog{
+    display: grid;
+        grid-template-areas: 
+            "p img"
+            "img h2"
+            "img h1";
+        background: linear-gradient(0deg, rgba(246,241,235,1) 0%, rgba(199,181,140,0.981127485173757) 79%);
+        list-style: none;
+        border: 3px solid black;
+        padding: 20px;
+        margin: 20px;
+}

@@ -1,0 +1,17 @@
+
+@mixin proyecto {
+
+    padding: 30px;
+    margin: 30px;
+    text-align: start;
+    display: flex;
+    flex-flow: row wrap;
+    .linea {
+        text-align: center;
+        border-top: 1px solid black;
+        height: 2px;
+        max-width: 2000px;
+        padding: 0;
+        margin: 5px auto 0 auto;
+      }
+}

@@ -1,0 +1,20 @@
+//estilo de home
+.home{
+    background-color: $color-principal;
+    margin: 15px;
+    padding: 30px;
+    gap: 10px;
+    .titulo{
+       color: #30613b;
+    }
+    .fotografo{
+        font-size: 85%;
+        text-shadow: 1px 1px 2px;
+    }
+    div{
+        img{
+        width: 150px;
+        margin: 20px;
+        }
+    }
+}

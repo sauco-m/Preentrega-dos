@@ -1,0 +1,36 @@
+
+    .titulo{
+        color: #30613b;
+     }
+
+.img-historia{
+    width: 50%;
+}
+
+.story{
+    padding: 20px;
+    margin: 20px;
+}
+
+.historia{
+    h2{
+        color: $color-texto;
+    }
+    display: flex;
+    justify-content: space-between;
+}
+
+.linea {
+    text-align: center;
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 1500px;
+    padding: 0;
+    margin: 5px auto 0 auto;
+  }
+
+  .centrar{
+    display: flex; justify-content: center;
+    padding: 20px;
+    margin: 20px;
+  }
