@@ -14,4 +14,12 @@
         padding: 0;
         margin: 5px auto 0 auto;
       }
+    @media (max-width: 600px) 
+         {
+          padding: 30px;
+          margin: 30px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+        }
 }

@@ -64,6 +64,14 @@ header {
   .home div img {
     width: 250px;
     margin: 20px; }
+  @media (max-width: 600px) {
+    .home {
+      margin: 15px;
+      padding: 30px;
+      gap: 10px;
+      text-align: center;
+      display: grid;
+      grid-template-areas: "p img" "img img" "img img"; } }
 
 .titulo {
   margin: 10px;
@@ -84,6 +92,13 @@ main {
     max-width: 2000px;
     padding: 0;
     margin: 5px auto 0 auto; }
+  @media (max-width: 600px) {
+    main {
+      padding: 30px;
+      margin: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center; } }
 
 .moda {
   padding: 30px;
@@ -98,6 +113,13 @@ main {
     max-width: 2000px;
     padding: 0;
     margin: 5px auto 0 auto; }
+  @media (max-width: 600px) {
+    .moda {
+      padding: 30px;
+      margin: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center; } }
 
 .arte {
   padding: 30px;
@@ -112,6 +134,13 @@ main {
     max-width: 2000px;
     padding: 0;
     margin: 5px auto 0 auto; }
+  @media (max-width: 600px) {
+    .arte {
+      padding: 30px;
+      margin: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center; } }
 
 .casamiento {
   padding: 30px;
@@ -126,6 +155,13 @@ main {
     max-width: 2000px;
     padding: 0;
     margin: 5px auto 0 auto; }
+  @media (max-width: 600px) {
+    .casamiento {
+      padding: 30px;
+      margin: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center; } }
 
 ul li h2 {
   margin: 15px;
@@ -222,3 +258,10 @@ footer {
     margin: 10px; }
     footer ul li img {
       width: 20px; }
+  @media (max-width: 600px) {
+    footer {
+      margin: 10px;
+      padding: 10px;
+      display: block; }
+      footer h3 {
+        text-align: center; } }

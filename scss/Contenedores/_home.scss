@@ -17,4 +17,16 @@
         margin: 20px;
         }
     }
+    @media (max-width: 600px) 
+    {
+        margin: 15px;
+        padding: 30px;
+        gap: 10px;
+        text-align: center;
+        display: grid;
+        grid-template-areas: 
+            "p img"
+            "img img"
+            "img img";
+    }
 }
