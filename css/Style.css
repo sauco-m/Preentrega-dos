@@ -208,7 +208,7 @@ main ul li {
   margin: 15px;
   padding: 30px;
   text-align: start;
-  border: 5px solid black; }
+  border: 1px solid #663232; }
 
 footer {
   background-color: rgba(199, 181, 140, 0.981127);
