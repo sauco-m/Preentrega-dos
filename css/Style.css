@@ -47,7 +47,6 @@ header {
       background-color: rgba(199, 181, 140, 0.981127);
       background: linear-gradient(0deg, #f6f1eb 0%, rgba(199, 181, 140, 0.981127) 79%);
       border-radius: 15px;
-      text-shadow: 1px 1px 3px;
       box-shadow: 1px 1px 4px black;
       font-size: medium; }
 
